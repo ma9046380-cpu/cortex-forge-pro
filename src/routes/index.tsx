@@ -1,14 +1,3 @@
-<<<<<<< HEAD
-
-export default function HomePage() {
-  return (
-    <main className="p-10">
-      <h2 className="text-3xl font-bold">
-        AI SaaS Platform
-      </h2>
-    </main>
-  )
-=======
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { motion } from "framer-motion";
 import { Sparkles, Zap, Shield, BarChart3, Bot, Cpu, ArrowRight, Check } from "lucide-react";
