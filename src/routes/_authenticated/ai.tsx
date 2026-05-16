@@ -1,14 +1,3 @@
-<<<<<<< HEAD
-
-export default function AIWorkspace() {
-  return (
-    <div className="p-10">
-      <h1 className="text-2xl font-bold">
-        AI Workspace
-      </h1>
-    </div>
-  )
-=======
 import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useRef, useState } from "react";
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
@@ -193,5 +182,4 @@ function Message({ role, content, pulse }: { role: "user" | "assistant"; content
       </div>
     </div>
   );
->>>>>>> 468f9075cec67ec109f6f66a10dbb49ba22950c1
 }

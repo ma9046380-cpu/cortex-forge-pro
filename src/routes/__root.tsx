@@ -1,14 +1,3 @@
-<<<<<<< HEAD
-
-export default function RootLayout() {
-  return (
-    <div className="min-h-screen bg-black text-white">
-      <h1 className="text-4xl font-bold p-10">
-        Cortex Forge Pro
-      </h1>
-    </div>
-  )
-=======
 import { QueryClient, QueryClientProvider, useQueryClient } from "@tanstack/react-query";
 import {
   Outlet,
@@ -169,5 +158,4 @@ function RootComponent() {
       <Toaster />
     </QueryClientProvider>
   );
->>>>>>> 468f9075cec67ec109f6f66a10dbb49ba22950c1
 }

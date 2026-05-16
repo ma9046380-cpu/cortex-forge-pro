@@ -1,22 +1,3 @@
-<<<<<<< HEAD
-
-# Cortex Forge Pro
-
-Professional SaaS starter with:
-- React
-- TypeScript
-- Tailwind
-- Zustand
-- Supabase
-- TanStack Router
-
-## Install
-
-```bash
-npm install
-npm run dev
-```
-=======
 # Nexus AI
 
 Enterprise AI SaaS platform built on Lovable's modern stack.
@@ -86,4 +67,3 @@ VALUES ((SELECT id FROM auth.users WHERE email = 'you@example.com'), 'admin');
 ```
 
 Then refresh — the Admin link will appear in the sidebar.
->>>>>>> 468f9075cec67ec109f6f66a10dbb49ba22950c1
