@@ -1,14 +1,3 @@
-<<<<<<< HEAD
-
-export default function DashboardPage() {
-  return (
-    <div className="p-10">
-      <h1 className="text-2xl font-bold">
-        Dashboard
-      </h1>
-    </div>
-  )
-=======
 import { createFileRoute } from "@tanstack/react-router";
 import { useQuery } from "@tanstack/react-query";
 import { useServerFn } from "@tanstack/react-start";
@@ -120,5 +109,4 @@ function StatCard({ icon: Icon, label, value, delta }: { icon: typeof Bot; label
       </div>
     </motion.div>
   );
->>>>>>> 468f9075cec67ec109f6f66a10dbb49ba22950c1
 }
